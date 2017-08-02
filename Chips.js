@@ -120,18 +120,6 @@ const TILES = {
     chip_right: 111
 };
 
-class level {
-    constructor(levelNumber, levelData) {
-        this.levelNumber = levelNumber;
-        this.levelData = levelData;
-    }
-}
-
-const testCreatureAI = {
-
-}
-
-//Constructor to 
 class gameState {
     constructor(boardSize, numChips, time) {
         this.boardSize = boardSize; //The board is a square of this amount
